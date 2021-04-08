@@ -1,0 +1,92 @@
+.App{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.circle-part{
+  margin: auto;
+  height: 240px;
+  width: 240px;
+}
+
+.circle-wrap{
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  border-radius: 50%;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+}
+
+.circle-one{
+  background-color: blue;
+  border-top-left-radius : 100%;
+  opacity: 0.6;
+}
+
+.circle-two{
+  background-color: #ff0000;
+  border-top-right-radius : 100%;
+  opacity: 0.6;
+}
+
+.circle-three{
+  background-color: yellow;
+  border-bottom-left-radius : 100%;
+  opacity: 0.6;
+}
+
+.circle-four{
+  background-color: green;
+  border-bottom-right-radius : 100%;
+  opacity: 0.6;
+}
+
+.animated{
+  opacity: 1;
+}
+
+.control-panel{
+  margin-left: 100px;
+}
+
+.control-panel p{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.control-panel button{
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+}
+
+.game-options{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
